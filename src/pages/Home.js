@@ -8,7 +8,8 @@ function Home() {
       <div className='about'>
         <h2>Hello, my name is Thanaphone Phouamnouay</h2>
         <div className='prompt'>
-          <p>A web developer with a passion for learning and creating.</p>
+          <p>As a front-end developer, I have a strong understanding of HTML, CSS, and JavaScript and have experience building responsive and intuitive user interfaces for web applications. </p>
+          <p>I am skilled in front-end frameworks such as Bootstrap and React, and have a strong understanding of design principles and user experience design.</p>
           <a href='https://www.linkedin.com/in/thanaphone-phouamnouay-00826225b/' target='_blank' rel="noreferrer"><LinkedIn /></a>
           <a href='mailto:thanaphonepan@yahoo.com' target='_blank' rel="noreferrer"><Email /></a>
           <a href='https://github.com/ThanapawnTony' target='_blank' rel="noreferrer"><GitHub /></a>

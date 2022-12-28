@@ -1,7 +1,10 @@
+:root {
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .home {
     width: 100%;
     align-items: center;
-    font-family: "Arial", sans-serif;
+    font-family: var(--font-family);
     color: #3e497a;
   }
   
@@ -18,7 +21,7 @@
   }
   
   .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-size: 80px;
     color: #e9d35b;
     height: 50px;
@@ -46,18 +49,18 @@
   
   .skills h1 {
     color: #3e497a;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
   }
   
   .skills .list {
     list-style: none;
     width: 60%;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
   }
   
   .list span {
     font-size: 20px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-weight: 500;
   }
 
@@ -66,6 +69,23 @@
       font-size: 50px;
       position: relative;
       bottom: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 810px) {
+    .prompt p {
+      font-size: 25px;
+      position: relative;
+    }
+    .about h2 {
+      font-size: 40px;
+      bottom: 5rem;
+    }
+    .skills h1 {
+      font-size: 47px;
+    }
+    .skills h2 {
+      font-size: 40px;
     }
   }
   
@@ -77,9 +97,9 @@
     }
   
     .about .prompt {
-      margin-top: 0;
       font-size: 20px;
       width: 80%;
+      top: 1rem;
     }
   
     .skills {
@@ -91,5 +111,18 @@
   
     .skills h2 {
       font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    .about h2 {
+      font-size: 30px;
+      position: relative;
+    }
+    .prompt p {
+      font-size: 20px;
+    }
+    .skills h1 {
+      font-size: 35px;
     }
   }

@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  
+}
+
 .projects {
     width: 100%;
     height: auto;
@@ -6,6 +11,11 @@
     align-items: center;
     flex-direction: column;
   }
+
+  .projects h1 {
+    font-family: var(--font-family);
+  }
+
   .projects .projectTitle {
     text-align: center;
     color: #3e497a;
@@ -19,6 +29,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    font-family: var(--font-family);
+    font-size: 15px;
   }
   
   /* MENU ITEM STYLING */
@@ -30,6 +42,7 @@
     margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
+    font-family: var(--font-family);
   }
   .projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -48,11 +61,13 @@
   }
   
   .projectItem h1 {
-    font-size: 25px;
+    font-size: 23px;
+    font-family: var(--font-family);
   }
 
   .projectItem a {
     margin: 1rem;
+    font-family: var(--font-family);
   }
 
   .projectItem button {
@@ -61,12 +76,13 @@
     background: #3e497a;
     color: white;
     cursor: pointer;
+    font-family: var(--font-family);
   }
 
   .projectItem button:hover {
     background: gray;
     color: black;
-    transition: 0.6s ease;
+    transition: 1s ease;
   }
   
   @media only screen and (max-width: 1300px) {
@@ -75,7 +91,7 @@
     }
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 990px) {
     .projectList {
       grid-template-columns: 1fr;
     }

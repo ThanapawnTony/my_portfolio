@@ -12,6 +12,28 @@
     justify-content: center;
     color: white;
   }
+
+  .links-items {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-family: var(--font-family);
+  }
+
+  .links-items::after {
+    content: '';
+    height: 2px;
+    display: block;
+    margin: auto;
+    background: #fff;
+    transition: 0.5s;
+    width: 0%;
+  }
+
+  .links-items:hover::after {
+    width: 100%;
+  }
+
   
   .navbar a {
     color: white;

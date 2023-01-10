@@ -12,7 +12,7 @@ function Footer() {
           <a href='mailto:thanaphonepan@yahoo.com' target='_blank' rel="noreferrer"><Email /></a>
           <a href='https://github.com/ThanapawnTony' target='_blank' rel="noreferrer"><GitHub /></a>
         </div>
-        <p> &copy; 2022 Thanaphone Phouamnouay Portfolio</p>
+        <p> &copy; 2023 Thanaphone Phouamnouay Portfolio</p>
     </div>
   )
 }

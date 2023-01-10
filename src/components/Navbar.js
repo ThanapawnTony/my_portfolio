@@ -26,6 +26,7 @@ function Navbar() {
         <div className='links'>
             <span className='links-items'><Link to="/"> Home </Link></span>
             <span className='links-items'><Link to="/projects"> Projects </Link></span>
+            <span className='links-items' ><a href='https://drive.google.com/file/d/19l0QIN2ejdAhpX3U_ftA_A0wA7DFgcpi/view?usp=sharing' target='_blank' rel='noreferrer'> My CV </a></span>
         </div>
     </div>
   )

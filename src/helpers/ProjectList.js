@@ -5,10 +5,10 @@ import p4 from "../assets/p4.png";
 
 export const projectList = [
     {
-        name: 'Barber & Tattoo Website',
+        name: 'Weather App',
         image: p1,
-        link: 'https://pakse-tattoo.nicepage.io/',
-        git: 'https://pakse-tattoo.nicepage.io/'
+        link: 'https://tony-weather.netlify.app/',
+        git: 'https://github.com/ThanapawnTony/Weather-App'
     },
     {
         name: 'Photography Website',
@@ -17,7 +17,7 @@ export const projectList = [
         git: 'https://github.com/ThanapawnTony/phototam'
     },
     {
-        name: 'GPT-3 AI Website',
+        name: 'GPT-3 Website',
         image: p3,
         link: 'https://gpt3-tony.netlify.app/',
         git: 'https://github.com/ThanapawnTony/GPT-3'
